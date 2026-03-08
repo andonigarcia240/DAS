@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- GameLog - Paleta suave oscura -->
+    <color name="primary_dark">#1E1E2E</color>
+    <color name="primary">#2A2A3E</color>
+    <color name="accent">#7C9FD4</color>
+    <color name="secondary">#3A3A55</color>
+    <color name="text_primary">#E8E8F0</color>
+    <color name="text_secondary">#9090A8</color>
+
+    <!-- Estados - tonos pastel suaves -->
+    <color name="estado_jugando">#3D7A5E</color>
+    <color name="estado_completado">#3D5E8A</color>
+    <color name="estado_abandonado">#7A3D3D</color>
 </resources>
