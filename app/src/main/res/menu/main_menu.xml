@@ -14,4 +14,10 @@
         android:icon="@android:drawable/ic_menu_search"
         app:showAsAction="ifRoom"/>
 
+    <item
+        android:id="@+id/action_map"
+        android:title="Mapa"
+        android:icon="@android:drawable/ic_dialog_map"
+        app:showAsAction="ifRoom"/>
+
 </menu>

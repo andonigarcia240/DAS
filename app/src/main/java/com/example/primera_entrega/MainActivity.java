@@ -193,7 +193,11 @@ public class MainActivity extends AppCompatActivity implements GameAdapter.OnGam
                     Uri.parse("https://www.google.com/search?q=videojuegos+recomendados"));
             startActivity(intent);
             return true;
+        } else if (id == R.id.action_map) {
+        startActivity(new Intent(this, MapActivity.class));
+        return true;
         }
+
         return super.onOptionsItemSelected(item);
     }
 
@@ -203,7 +207,7 @@ public class MainActivity extends AppCompatActivity implements GameAdapter.OnGam
         int abandonados = dbHelper.countByEstado("Abandonado");
         int total = gameList.size();
 
-        String msg = "📊 Tu GameLog\n\n" +
+        String msg = "Tu GameLog\n\n" +
                 "Total: " + total + " juegos\n" +
                 "Jugando: " + jugando + "\n" +
                 "Completados: " + completados + "\n" +
