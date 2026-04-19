@@ -158,7 +158,7 @@ public class ProfileActivity extends AppCompatActivity {
                         .build();
 
                 Request request = new Request.Builder()
-                        .url("http://34.140.125.55/gamelog/subir_foto.php")
+                        .url("http://34.140.219.210/gamelog/subir_foto.php")
                         .post(requestBody)
                         .build();
 
@@ -203,7 +203,7 @@ public class ProfileActivity extends AppCompatActivity {
             try {
                 OkHttpClient client = new OkHttpClient();
                 Request request = new Request.Builder()
-                        .url("http://34.140.125.55/gamelog/" + fotoUrl)
+                        .url("http://34.140.219.210/gamelog/" + fotoUrl)
                         .build();
                 try (Response response = client.newCall(request).execute()) {
                     byte[] bytes = response.body().bytes();

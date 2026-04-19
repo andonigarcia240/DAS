@@ -11,7 +11,7 @@ import okhttp3.Response;
 
 public class ApiClient {
 
-    private static final String BASE_URL = "http://34.140.125.55/gamelog/";
+    private static final String BASE_URL = "http://34.140.219.210/gamelog/";
     private static final OkHttpClient client = new OkHttpClient.Builder()
             .connectTimeout(10, TimeUnit.SECONDS)
             .readTimeout(10, TimeUnit.SECONDS)
